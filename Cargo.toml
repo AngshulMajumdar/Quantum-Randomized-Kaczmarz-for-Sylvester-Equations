@@ -1,0 +1,15 @@
+[package]
+name = "qrk-sylv"
+version = "0.1.0"
+edition = "2021"
+description = "Structured quantum randomized Kaczmarz solver and exact clock-dilation simulator for complex Sylvester equations"
+
+[lib]
+name = "qrk_sylv"
+path = "src/lib.rs"
+
+[[bin]]
+name = "qrk-sylv"
+path = "src/main.rs"
+
+[dependencies]
